@@ -39,7 +39,7 @@ const Form = ({ createAppointment }) => {
 		//Create Appointment
 		createAppointment(appointment);
 
-		//restart form
+		//Restart form
 		updateAppointment({
 			pet: '',
 			owner: '',
